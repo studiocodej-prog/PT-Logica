@@ -17,3 +17,5 @@ Você verá também exemplos ali para ter noção como funciona!!!
 Você faz a diferença!!!
 
 Apoie este projeto!!!
+
+Mas para facilitar vou deixar um guia completo e descritivel para você!!!
