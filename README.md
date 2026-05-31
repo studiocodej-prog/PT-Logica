@@ -61,6 +61,7 @@ programa_exemplo.bat
 2️⃣ Abrir o Editor
 
 python editor\editor_pt_logica.py
+(note: se der erro, abra o arquivo "editor_novo.py" isso dá certo!!!)
 
 3️⃣ Compilar um Programa
 
