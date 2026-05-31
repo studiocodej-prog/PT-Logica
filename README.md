@@ -14,6 +14,6 @@ Abre a pasta principal do projeto e você verá um guia de instruções.
 
 Você verá também exemplos ali para ter noção como funciona!!!
 
-Você faz a diferença!!
+Você faz a diferença!!!
 
 Apoie este projeto!!!
