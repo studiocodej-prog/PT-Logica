@@ -22,6 +22,10 @@ Mas para facilitar vou deixar um guia completo e descritivel para você!!!
 
 
 
+==========================================================================================================================================================================================================================
+
+
+
 🚀 PT-LÓGICA v1.0
 Linguagem de Programação em Português com Comunicação Direta com Hardware
 
