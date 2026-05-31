@@ -1,0 +1,83 @@
+// PT-LÓGICA - BIBLIOTECA: MEMÓRIA RAM
+// Grupo 3 de 10 - Gerenciamento de Memória
+
+PT-inclusao>"PT-memoria"<
+
+// PT-MEM-01: Alocação Dinâmica
+PT-pt(alocar-memoria)<
+    PT-pt()<malloc{tamanho}>
+    PT-pt()<calloc{num,tamanho}>
+    PT-pt()<realloc{ptr,novo_tamanho}>
+    PT-pt()<free{ptr}>
+PT-pt()>finalizar
+
+// PT-MEM-02: Gerenciador de Heap
+PT-pt(gerenciar-heap)<
+    PT-pt()<heap-status>
+    PT-pt()<fragmentacao-analise>
+    PT-pt()<heap-defragmentar>
+    PT-pt()<heap-compactar>
+PT-pt()>finalizar
+
+// PT-MEM-03: Stack Management
+PT-pt(gerenciar-stack)<
+    PT-pt()<empilhar{dados}>
+    PT-pt()<desempilhar>
+    PT-pt()<tamanho-stack>
+    PT-pt()<stack-overflow-detect>
+PT-pt()>finalizar
+
+// PT-MEM-04: Virtual Memory
+PT-pt(memoria-virtual)<
+    PT-pt()<criar-page-file{tamanho}>
+    PT-pt()<page-fault-handler>
+    PT-pt()<swap-in-out>
+    PT-pt()<virtual-address-translation>
+PT-pt()>finalizar
+
+// PT-MEM-05: Memory Pooling
+PT-pt(object-pools)<
+    PT-pt()<criar-pool{tamanho,tipo}>
+    PT-pt()<obter-do-pool>
+    PT-pt()<devolver-ao-pool>
+    PT-pt()<destruir-pool>
+PT-pt()>finalizar
+
+// PT-MEM-06: NUMA - Non-Uniform Memory Access
+PT-pt(numa-optimization)<
+    PT-pt()<afinidade-numa>
+    PT-pt()<balanceamento-node>
+    PT-pt()<migracao-pagina>
+PT-pt()>finalizar
+
+// PT-MEM-07: Smart Pointers
+PT-pt(smart-pointers)<
+    PT-pt()<unique-ptr>
+    PT-pt()<shared-ptr>
+    PT-pt()<weak-ptr>
+    PT-pt()<contador-referencias>
+PT-pt()>finalizar
+
+// PT-MEM-08: Garbage Collection
+PT-pt(coleta-lixo)<
+    PT-pt()<mark-and-sweep>
+    PT-pt()<generational-gc>
+    PT-pt()<concurrent-gc>
+    PT-pt()<gc-pause-time>
+PT-pt()>finalizar
+
+// PT-MEM-09: Memory Mapping
+PT-pt(memory-mapped-io)<
+    PT-pt()<mmap-arquivo>
+    PT-pt()<unmap-arquivo>
+    PT-pt()<read-mmap>
+    PT-pt()<write-mmap>
+PT-pt()>finalizar
+
+// PT-MEM-10: Paginação e Segmentação
+PT-pt(paginacao-segmentacao)<
+    PT-pt()<page-table>
+    PT-pt()<segmentation-fault-handler>
+    PT-pt()<proteção-memoria>
+    PT-pt()<permission-bits>
+PT-pt()>finalizar

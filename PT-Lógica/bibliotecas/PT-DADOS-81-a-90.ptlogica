@@ -1,0 +1,84 @@
+// PT-LÓGICA - BIBLIOTECA: DADOS E ANÁLISE
+// Grupo 9 de 10 - Gerenciamento de Dados Complexos
+
+PT-inclusao>"PT-dados-analise"<
+
+// PT-DATA-01: ETL - Extract, Transform, Load
+PT-pt(etl-pipeline)<
+    PT-pt()<extrair-dados{fonte}>
+    PT-pt()<transformar-dados{regras}>
+    PT-pt()<validar-dados>
+    PT-pt()<carregar-destino{database}>
+PT-pt()>finalizar
+
+// PT-DATA-02: Data Warehouse
+PT-pt(data-warehouse)<
+    PT-pt()<schema-estrela{fatos,dimensoes}>
+    PT-pt()<cubos-olap>
+    PT-pt()<agregacoes>
+    PT-pt()<index-strategy>
+PT-pt()>finalizar
+
+// PT-DATA-03: Análise Estatística
+PT-pt(analise-estatistica)<
+    PT-pt()<media-desvio{dados}>
+    PT-pt()<regressao-logistica>
+    PT-pt()<teste-hipotese>
+    PT-pt()<correlacao-pearson>
+PT-pt()>finalizar
+
+// PT-DATA-04: Time Series Analysis
+PT-pt(series-temporais)<
+    PT-pt()<arima-modelo>
+    PT-pt()<exponential-smoothing>
+    PT-pt()<seasonal-decomposition>
+    PT-pt()<previsao-futura>
+PT-pt()>finalizar
+
+// PT-DATA-05: Big Data Frameworks
+PT-pt(big-data)<
+    PT-pt()<spark-processing>
+    PT-pt()<hadoop-mapreduce>
+    PT-pt()<spark-sql>
+    PT-pt()<processamento-stream>
+PT-pt()>finalizar
+
+// PT-DATA-06: Data Mining
+PT-pt(data-mining)<
+    PT-pt()<pattern-discovery>
+    PT-pt()<anomaly-detection>
+    PT-pt()<association-rules>
+    PT-pt()<cluster-analysis>
+PT-pt()>finalizar
+
+// PT-DATA-07: NoSQL Databases
+PT-pt(nosql-databases)<
+    PT-pt()<mongodb-queries>
+    PT-pt()<cassandra-distributed>
+    PT-pt()<dynamodb-aws>
+    PT-pt()<elasticsearch>
+PT-pt()>finalizar
+
+// PT-DATA-08: Indexação e Busca
+PT-pt(indexacao-busca)<
+    PT-pt()<criar-indice{campo}>
+    PT-pt()<full-text-search>
+    PT-pt()<ranking-algoritmo>
+    PT-pt()<elasticsearch-query>
+PT-pt()>finalizar
+
+// PT-DATA-09: Data Governance
+PT-pt(data-governance)<
+    PT-pt()<definir-politicas>
+    PT-pt()<data-quality-rules>
+    PT-pt()<metadata-management>
+    PT-pt()<audit-trail>
+PT-pt()>finalizar
+
+// PT-DATA-10: Business Intelligence
+PT-pt(business-intelligence)<
+    PT-pt()<criar-dashboard>
+    PT-pt()<relatorios-automaticos>
+    PT-pt()<kpi-tracking>
+    PT-pt()<predictive-analytics>
+PT-pt()>finalizar

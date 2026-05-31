@@ -1,0 +1,84 @@
+// PT-LÓGICA - BIBLIOTECA: INTELIGÊNCIA ARTIFICIAL
+// Grupo 7 de 10 - Machine Learning e IA
+
+PT-inclusao>"PT-inteligencia-artificial"<
+
+// PT-IA-01: Redes Neurais Profundas
+PT-pt(redes-neurais)<
+    PT-pt()<criar-rede{camadas,neuronio}>
+    PT-pt()<forward-pass{entrada}>
+    PT-pt()<backward-pass{gradiente}>
+    PT-pt()<treinar{dataset,epocas}>
+PT-pt()>finalizar
+
+// PT-IA-02: Machine Learning Básico
+PT-pt(machine-learning)<
+    PT-pt()<regressao-linear{dados}>
+    PT-pt()<classificacao-logistica>
+    PT-pt()<svm-support-vector>
+    PT-pt()<kmeans-clustering>
+PT-pt()>finalizar
+
+// PT-IA-03: Processamento de Linguagem Natural
+PT-pt(nlp-processamento)<
+    PT-pt()<tokenizar-texto{texto}>
+    PT-pt()<stemming-lemmatizacao>
+    PT-pt()<word-embeddings{w2v}>
+    PT-pt()<transformer-encoder>
+PT-pt()>finalizar
+
+// PT-IA-04: Visão Computacional
+PT-pt(visao-computacional)<
+    PT-pt()<detectar-objetos{imagem}>
+    PT-pt()<segmentacao-semantica>
+    PT-pt()<reconhecimento-facial{face}>
+    PT-pt()<pose-estimation>
+PT-pt()>finalizar
+
+// PT-IA-05: Otimização Paramétrica
+PT-pt(otimizacao-parametros)<
+    PT-pt()<gradient-descent>
+    PT-pt()<adam-optimizer>
+    PT-pt()<learning-rate-scheduler>
+    PT-pt()<regularizacao-l1-l2>
+PT-pt()>finalizar
+
+// PT-IA-06: Data Augmentation
+PT-pt(augmentacao-dados)<
+    PT-pt()<rotacao-imagem{graus}>
+    PT-pt()<flipar-horizontal>
+    PT-pt()<noise-adicionar>
+    PT-pt()<mixup-blending>
+PT-pt()>finalizar
+
+// PT-IA-07: Transfer Learning
+PT-pt(transfer-learning)<
+    PT-pt()<carregar-modelo-pretreinado{nome}>
+    PT-pt()<fine-tuning{layers}>
+    PT-pt()<feature-extraction>
+    PT-pt()<congelar-camadas>
+PT-pt()>finalizar
+
+// PT-IA-08: Reinforcement Learning
+PT-pt(reinforcement-learning)<
+    PT-pt()<criar-ambiente{tipo}>
+    PT-pt()<q-learning{estado}>
+    PT-pt()<policy-gradient>
+    PT-pt()<reward-function{recompensa}>
+PT-pt()>finalizar
+
+// PT-IA-09: Ensemble Methods
+PT-pt(ensemble-models)<
+    PT-pt()<bagging-bootstrap>
+    PT-pt()<boosting-adaboost>
+    PT-pt()<stacking-meta-learner>
+    PT-pt()<voting-classifier>
+PT-pt()>finalizar
+
+// PT-IA-10: Explainabilidade e Interpretabilidade
+PT-pt(explicabilidade-ia)<
+    PT-pt()<shap-values>
+    PT-pt()<lime-explicacao>
+    PT-pt()<grad-cam-visualizar>
+    PT-pt()<feature-importance>
+PT-pt()>finalizar

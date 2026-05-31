@@ -1,0 +1,84 @@
+// PT-LÓGICA - BIBLIOTECA: INTERFACE E UI
+// Grupo 5 de 10 - Interface Gráfica do Usuário
+
+PT-inclusao>"PT-interface"<
+
+// PT-UI-01: Janelas e Widgets Básicos
+PT-pt(criar-interface)<
+    PT-pt()<janela{largura,altura,titulo}>
+    PT-pt()<botao{x,y,rotulo}>
+    PT-pt()<caixa-texto{x,y,largura}>
+    PT-pt()<label{x,y,texto}>
+PT-pt()>finalizar
+
+// PT-UI-02: Layout Management
+PT-pt(layout-manager)<
+    PT-pt()<layout-grid{colunas,linhas}>
+    PT-pt()<layout-box{vertical,horizontal}>
+    PT-pt()<layout-flex{direction}>
+    PT-pt()<responder-redimensionamento>
+PT-pt()>finalizar
+
+// PT-UI-03: Eventos e Callbacks
+PT-pt(sistema-eventos)<
+    PT-pt()<registrar-onclick{widget,funcao}>
+    PT-pt()<registrar-onchange{widget,funcao}>
+    PT-pt()<registrar-onmouseover{widget,funcao}>
+    PT-pt()<registrar-onkeypress{funcao}>
+PT-pt()>finalizar
+
+// PT-UI-04: Temas e Estilos
+PT-pt(temas-estilos)<
+    PT-pt()<tema-claro>
+    PT-pt()<tema-escuro>
+    PT-pt()<cores-customizadas>
+    PT-pt()<fontes-personalizadas>
+PT-pt()>finalizar
+
+// PT-UI-05: Dialogs e Popups
+PT-pt(dialog-popups)<
+    PT-pt()<caixa-mensagem{titulo,conteudo}>
+    PT-pt()<caixa-confirmacao{pergunta}>
+    PT-pt()<caixa-entrada{titulo}>
+    PT-pt()<seletor-arquivo{diretorio}>
+PT-pt()>finalizar
+
+// PT-UI-06: Menus e Toolbars
+PT-pt(menus-toolbars)<
+    PT-pt()<menu-principal>
+    PT-pt()<submenu{opcoes}>
+    PT-pt()<toolbar{icones}>
+    PT-pt()<context-menu>
+PT-pt()>finalizar
+
+// PT-UI-07: Tabelas e Grids
+PT-pt(tabelas-grids)<
+    PT-pt()<criar-tabela{colunas}>
+    PT-pt()<adicionar-linha{dados}>
+    PT-pt()<remover-linha{indice}>
+    PT-pt()<ordenar-coluna>
+PT-pt()>finalizar
+
+// PT-UI-08: Gráficos e Visualização
+PT-pt(graficos)<
+    PT-pt()<grafico-barras{dados}>
+    PT-pt()<grafico-linhas{serie}>
+    PT-pt()<grafico-pizza{valores}>
+    PT-pt()<grafico-dispersao{xy}>
+PT-pt()>finalizar
+
+// PT-UI-09: Animações UI
+PT-pt(animacoes-ui)<
+    PT-pt()<transicao{tempo,propriedade}>
+    PT-pt()<fade-in{duracao}>
+    PT-pt()<slide-out{direcao}>
+    PT-pt()<escala-proporcional>
+PT-pt()>finalizar
+
+// PT-UI-10: Acessibilidade
+PT-pt(acessibilidade)<
+    PT-pt()<alto-contraste>
+    PT-pt()<leitor-tela-suporte>
+    PT-pt()<navegacao-teclado>
+    PT-pt()<tamanho-fonte-ajustavel>
+PT-pt()>finalizar

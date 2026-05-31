@@ -1,0 +1,84 @@
+// PT-LÓGICA - BIBLIOTECA: CLOUD E SERVIDORES
+// Grupo 8 de 10 - Cloud Computing e Distribuição
+
+PT-inclusao>"PT-cloud-servidor"<
+
+// PT-CLOUD-01: Web Servers
+PT-pt(servidores-web)<
+    PT-pt()<iniciar-servidor-web{porta}>
+    PT-pt()<rotear-requisicao{caminho}>
+    PT-pt()<enviar-resposta-http{status,corpo}>
+    PT-pt()<gerenciar-conexoes>
+PT-pt()>finalizar
+
+// PT-CLOUD-02: Bancos de Dados Distribuídos
+PT-pt(bancos-distribuidos)<
+    PT-pt()<conectar-database{host,porta}>
+    PT-pt()<replicacao-master-slave>
+    PT-pt()<sharding-particoes>
+    PT-pt()<consenso-distribuido>
+PT-pt()>finalizar
+
+// PT-CLOUD-03: Load Balancing
+PT-pt(balanceamento-carga)<
+    PT-pt()<round-robin>
+    PT-pt()<least-connections>
+    PT-pt()<ip-hash>
+    PT-pt()<health-check-servidores>
+PT-pt()>finalizar
+
+// PT-CLOUD-04: Cache Distribuído
+PT-pt(cache-distribuido)<
+    PT-pt()<redis-cache>
+    PT-pt()<memcached>
+    PT-pt()<invalidacao-cache>
+    PT-pt()<ttl-expiracao>
+PT-pt()>finalizar
+
+// PT-CLOUD-05: Mensageria
+PT-pt(sistema-mensagens)<
+    PT-pt()<publicar-topico{topico,mensagem}>
+    PT-pt()<subscrever-topico{topico}>
+    PT-pt()<rabbit-mq>
+    PT-pt()<kafka-streaming>
+PT-pt()>finalizar
+
+// PT-CLOUD-06: Orquestração de Containers
+PT-pt(orquestracao-containers)<
+    PT-pt()<kubernetes-deploy>
+    PT-pt()<docker-compose>
+    PT-pt()<service-discovery>
+    PT-pt()<rolling-update>
+PT-pt()>finalizar
+
+// PT-CLOUD-07: Armazenamento em Nuvem
+PT-pt(armazenamento-nuvem)<
+    PT-pt()<s3-upload{bucket,arquivo}>
+    PT-pt()<s3-download{chave}>
+    PT-pt()<azure-blob>
+    PT-pt()<replicacao-geografica>
+PT-pt()>finalizar
+
+// PT-CLOUD-08: Backup e Disaster Recovery
+PT-pt(backup-dr)<
+    PT-pt()<backup-continuado>
+    PT-pt()<replicacao-ativa>
+    PT-pt()<failover-automatico>
+    PT-pt()<rto-rpo-calculo>
+PT-pt()>finalizar
+
+// PT-CLOUD-09: Monitoramento e Observabilidade
+PT-pt(monitoramento-cloud)<
+    PT-pt()<coletar-metricas>
+    PT-pt()<datadog-cloudwatch>
+    PT-pt()<prometheus-scraping>
+    PT-pt()<alertas-anomalias>
+PT-pt()>finalizar
+
+// PT-CLOUD-10: Segurança em Nuvem
+PT-pt(seguranca-cloud)<
+    PT-pt()<encriptacao-dados>
+    PT-pt()<verificacao-identidade-iam>
+    PT-pt()<ddos-protecao>
+    PT-pt()<compliance-gdpr-hipaa>
+PT-pt()>finalizar

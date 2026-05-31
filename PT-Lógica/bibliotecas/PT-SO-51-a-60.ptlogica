@@ -1,0 +1,84 @@
+// PT-LÓGICA - BIBLIOTECA: SISTEMAS OPERACIONAIS
+// Grupo 6 de 10 - Desenvolvimento de SO
+
+PT-inclusao>"PT-sistema-operacional"<
+
+// PT-OS-01: Kernel e Boot
+PT-pt(kernel-boot)<
+    PT-pt()<bootloader-init>
+    PT-pt()<kernel-main>
+    PT-pt()<inicializar-drivers>
+    PT-pt()<montar-filesystems>
+PT-pt()>finalizar
+
+// PT-OS-02: Processos e Threads
+PT-pt(gerenciador-processos)<
+    PT-pt()<criar-processo{programa}>
+    PT-pt()<terminar-processo{pid}>
+    PT-pt()<listar-processos>
+    PT-pt()<priority-scheduling>
+PT-pt()>finalizar
+
+// PT-OS-03: Permissões e Usuários
+PT-pt(controle-acesso)<
+    PT-pt()<criar-usuario{nome,senha}>
+    PT-pt()<verificar-permissoes>
+    PT-pt()<sudo-execucao>
+    PT-pt()<acl-policies>
+PT-pt()>finalizar
+
+// PT-OS-04: Device Drivers
+PT-pt(drivers)<
+    PT-pt()<registrar-driver>
+    PT-pt()<carregar-firmware>
+    PT-pt()<comunicar-com-hardware>
+    PT-pt()<tratador-interrupcao-driver>
+PT-pt()>finalizar
+
+// PT-OS-05: Segurança e Proteção
+PT-pt(seguranca-so)<
+    PT-pt()<firewall-regras>
+    PT-pt()<detecção-malware>
+    PT-pt()<sandbox-executar>
+    PT-pt()<SELinux-policies>
+PT-pt()>finalizar
+
+// PT-OS-06: Networking
+PT-pt(networking)<
+    PT-pt()<configurar-ip{endereco,mascara}>
+    PT-pt()<iniciar-servico-rede>
+    PT-pt()<firewall-porta{porta}>
+    PT-pt()<dns-resolver>
+PT-pt()>finalizar
+
+// PT-OS-07: Logs e Monitoramento
+PT-pt(logs-monitoramento)<
+    PT-pt()<escrever-log{mensagem}>
+    PT-pt()<monitorar-cpu>
+    PT-pt()<monitorar-memoria>
+    PT-pt()<alertas-sistema>
+PT-pt()>finalizar
+
+// PT-OS-08: Power Management
+PT-pt(gerenciar-energia)<
+    PT-pt()<suspender-sistema>
+    PT-pt()<hibernar-sistema>
+    PT-pt()<reboot-seguro>
+    PT-pt()<cpufreq-scaling>
+PT-pt()>finalizar
+
+// PT-OS-09: Containerização
+PT-pt(containers)<
+    PT-pt()<criar-container{nome}>
+    PT-pt()<namespace-isolacao>
+    PT-pt()<cgroup-limite-recursos>
+    PT-pt()<checkpoint-restore>
+PT-pt()>finalizar
+
+// PT-OS-10: Boot Seguro
+PT-pt(secure-boot)<
+    PT-pt()<uefi-firmware>
+    PT-pt()<tpm-validacao>
+    PT-pt()<measured-boot>
+    PT-pt()<secure-enclave>
+PT-pt()>finalizar

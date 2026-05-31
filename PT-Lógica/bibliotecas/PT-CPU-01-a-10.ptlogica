@@ -1,0 +1,78 @@
+// PT-LÓGICA - BIBLIOTECA: CPU E PROCESSADOR
+// Grupo 1 de 10 - Hardware de Processamento
+
+PT-inclusao>"PT-cpu"<
+
+// PT-CPU-01: Controle Direto do Processador
+PT-pt(controlar-cpu)<
+    PT-pt()<acessar-registradores-CPU>
+    PT-pt()<ativar-nucleos{1,2,3,4}>
+    PT-pt()<frequencia-processador{3.5GHz,4.0GHz,4.5GHz}>
+PT-pt()>finalizar
+
+// PT-CPU-02: Cache L1, L2, L3
+PT-pt(gerenciar-cache)<
+    PT-pt()<cache-L1{32KB}>
+    PT-pt()<cache-L2{256KB}>
+    PT-pt()<cache-L3{8MB}>
+    PT-pt()<flush-cache>
+PT-pt()>finalizar
+
+// PT-CPU-03: Instruções em Tempo Real
+PT-pt(executar-instrucoes)<
+    PT-pt()<ler-instrucao-assembly>
+    PT-pt()<compilar-para-bytecode>
+    PT-pt()<pipeline-processamento>
+PT-pt()>finalizar
+
+// PT-CPU-04: Controle de Núcleos
+PT-pt(gerenciar-nucleos)<
+    PT-pt()<ativar-nucleo{1,2,3,4,6,8}>
+    PT-pt()<desativar-nucleo{X}>
+    PT-pt()<balancear-carga>
+PT-pt()>finalizar
+
+// PT-CPU-05: Monitoramento de Performance
+PT-pt(monitorar-cpu)<
+    PT-pt()<obter-temperatura>
+    PT-pt()<obter-uso-cpu{%}>
+    PT-pt()<obter-frequencia-atual>
+    PT-pt()<alertar-se-temperatura{90ºC}>
+PT-pt()>finalizar
+
+// PT-CPU-06: Interrupções e Sinais
+PT-pt(gerenciar-interrupcoes)<
+    PT-pt()<registrar-interrupcao{IRQ0-IRQ15}>
+    PT-pt()<mascarar-interrupcao>
+    PT-pt()<tratador-interrupcao>
+PT-pt()>finalizar
+
+// PT-CPU-07: Sincronização de Threads
+PT-pt(sincronizar-threads)<
+    PT-pt()<criar-thread>
+    PT-pt()<parar-thread>
+    PT-pt()<mutex-lock>
+    PT-pt()<semaforo>
+PT-pt()>finalizar
+
+// PT-CPU-08: Operações Atômicas
+PT-pt(operacoes-atomicas)<
+    PT-pt()<atomic-add>
+    PT-pt()<atomic-sub>
+    PT-pt()<atomic-swap>
+    PT-pt()<atomic-compare-and-swap>
+PT-pt()>finalizar
+
+// PT-CPU-09: Virtualização
+PT-pt(virtualizacao)<
+    PT-pt()<criar-maquina-virtual>
+    PT-pt()<hypervisor-mode>
+    PT-pt()<shadow-paging>
+PT-pt()>finalizar
+
+// PT-CPU-10: Otimização de Performance
+PT-pt(otimizar-cpu)<
+    PT-pt()<branch-prediction>
+    PT-pt()<prefetching>
+    PT-pt()<speculative-execution>
+PT-pt()>finalizar

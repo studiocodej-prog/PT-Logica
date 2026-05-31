@@ -1,0 +1,83 @@
+// PT-LÓGICA - BIBLIOTECA: ARMAZENAMENTO
+// Grupo 4 de 10 - SSD, HDD e Persistência
+
+PT-inclusao>"PT-ssd"<
+
+// PT-STORAGE-01: I/O de Disco
+PT-pt(io-disco)<
+    PT-pt()<ler-setor{endereco,tamanho}>
+    PT-pt()<escrever-setor{endereco,dados}>
+    PT-pt()<flush-buffer>
+    PT-pt()<sync-disco>
+PT-pt()>finalizar
+
+// PT-STORAGE-02: File System
+PT-pt(sistema-arquivos)<
+    PT-pt()<criar-arquivo{caminho}>
+    PT-pt()<deletar-arquivo{caminho}>
+    PT-pt()<mover-arquivo{origem,destino}>
+    PT-pt()<listar-diretorio{caminho}>
+PT-pt()>finalizar
+
+// PT-STORAGE-03: RAID e Redundância
+PT-pt(raid-system)<
+    PT-pt()<raid-0-striping>
+    PT-pt()<raid-1-mirroring>
+    PT-pt()<raid-5-parity>
+    PT-pt()<raid-6-dual-parity>
+PT-pt()>finalizar
+
+// PT-STORAGE-04: SSD Optimization
+PT-pt(otimizar-ssd)<
+    PT-pt()<trim-operation>
+    PT-pt()<wear-leveling>
+    PT-pt()<garbage-collection-ssd>
+    PT-pt()<firmware-update>
+PT-pt()>finalizar
+
+// PT-STORAGE-05: Compressão de Dados
+PT-pt(compressao)<
+    PT-pt()<comprimir-dados{algoritmo}>
+    PT-pt()<descomprimir-dados>
+    PT-pt()<lz4-compression>
+    PT-pt()<zstd-compression>
+PT-pt()>finalizar
+
+// PT-STORAGE-06: Criptografia de Armazenamento
+PT-pt(criptografia-disco)<
+    PT-pt()<aes-256-encrypt>
+    PT-pt()<aes-256-decrypt>
+    PT-pt()<tpm-integration>
+    PT-pt()<secure-erase>
+PT-pt()>finalizar
+
+// PT-STORAGE-07: Backup e Recuperação
+PT-pt(backup-recovery)<
+    PT-pt()<criar-backup-incremental>
+    PT-pt()<criar-backup-completo>
+    PT-pt()<restaurar-ponto-restauracao>
+    PT-pt()<snapshot-disco>
+PT-pt()>finalizar
+
+// PT-STORAGE-08: Fragmentação
+PT-pt(desfragmentacao)<
+    PT-pt()<analisar-fragmentacao>
+    PT-pt()<desfragmentar-disco>
+    PT-pt()<otimizar-layout>
+PT-pt()>finalizar
+
+// PT-STORAGE-09: NAS e Storage Remoto
+PT-pt(storage-remoto)<
+    PT-pt()<conectar-nas{ip,usuario}>
+    PT-pt()<montagem-nfs>
+    PT-pt()<sincronizar-nuvem>
+    PT-pt()<desconectar-nas>
+PT-pt()>finalizar
+
+// PT-STORAGE-10: Partições e Volumes
+PT-pt(gerenciar-particoes)<
+    PT-pt()<criar-particao{tamanho}>
+    PT-pt()<deletar-particao>
+    PT-pt()<redimensionar-particao>
+    PT-pt()<table-particoes-gpt>
+PT-pt()>finalizar

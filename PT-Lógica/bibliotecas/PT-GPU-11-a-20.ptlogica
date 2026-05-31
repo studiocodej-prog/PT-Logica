@@ -1,0 +1,82 @@
+// PT-LÓGICA - BIBLIOTECA: GPU E GRÁFICOS
+// Grupo 2 de 10 - Aceleração Gráfica
+
+PT-inclusao>"PT-gpu"<
+
+// PT-GPU-01: Renderização 3D
+PT-pt(renderizar-3d)<
+    PT-pt()<carregar-shader-vertex>
+    PT-pt()<carregar-shader-fragment>
+    PT-pt()<compilar-pipeline-graficos>
+    PT-pt()<renderizar-triangulos>
+PT-pt()>finalizar
+
+// PT-GPU-02: Texturas e Materiais
+PT-pt(gerenciar-texturas)<
+    PT-pt()<carregar-textura{arquivo.png}>
+    PT-pt()<mipmapping>
+    PT-pt()<anisotropic-filtering{16x}>
+    PT-pt()<compression-BC1-BC7>
+PT-pt()>finalizar
+
+// PT-GPU-03: Iluminação Avançada
+PT-pt(sistema-iluminacao)<
+    PT-pt()<luz-ambiente>
+    PT-pt()<luz-direcional>
+    PT-pt()<luz-pontual>
+    PT-pt()<sombras-dinamicas>
+PT-pt()>finalizar
+
+// PT-GPU-04: Particle Systems
+PT-pt(particulas)<
+    PT-pt()<criar-emissores>
+    PT-pt()<simular-particulas>
+    PT-pt()<colisoes-particulas>
+    PT-pt()<renderizar-particulas>
+PT-pt()>finalizar
+
+// PT-GPU-05: Post-Processing
+PT-pt(pos-processamento)<
+    PT-pt()<bloom-effect>
+    PT-pt()<motion-blur>
+    PT-pt()<color-grading>
+    PT-pt()<tone-mapping>
+PT-pt()>finalizar
+
+// PT-GPU-06: CUDA/OpenCL - Computação Paralela
+PT-pt(computacao-paralela)<
+    PT-pt()<cuda-kernels>
+    PT-pt()<memory-management-gpu>
+    PT-pt()<sincronizacao-gpu>
+    PT-pt()<copy-host-device>
+PT-pt()>finalizar
+
+// PT-GPU-07: Ray Tracing
+PT-pt(ray-tracing)<
+    PT-pt()<construir-bvh>
+    PT-pt()<cast-ray>
+    PT-pt()<intersection-testing>
+    PT-pt()<amostragem-montecarlo>
+PT-pt()>finalizar
+
+// PT-GPU-08: Deformação de Malhas
+PT-pt(deformacao-meshes)<
+    PT-pt()<skeletal-animation>
+    PT-pt()<blend-shapes>
+    PT-pt()<skeletal-binding>
+PT-pt()>finalizar
+
+// PT-GPU-09: Otimização VRAM
+PT-pt(otimizar-gpu)<
+    PT-pt()<gpu-memory-pool>
+    PT-pt()<texture-atlas>
+    PT-pt()<instancing>
+    PT-pt()<culling-tecnicas>
+PT-pt()>finalizar
+
+// PT-GPU-10: Streaming de Conteúdo
+PT-pt(streaming-gpu)<
+    PT-pt()<carregar-asset-stream>
+    PT-pt()<descarregar-asset-invisivel>
+    PT-pt()<LOD-system>
+PT-pt()>finalizar
